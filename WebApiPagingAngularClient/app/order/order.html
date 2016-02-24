@@ -1,0 +1,73 @@
+﻿<section>
+    <form class="form-horizontal" method="post">
+        <fieldset>
+            <legend>New Order</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Name</label>
+                <div class="col-md-4">
+                    <input id="textinput" name="textinput" type="text" placeholder="Name" class="form-control input-md" required="" ng-model="composeEmail.name">
+                    <span ng-show="error.Name">{{error.Name}}</span>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Surname</label>
+                <div class="col-md-4">
+                    <input id="textinput" name="textinput" type="text" placeholder="Surname" class="form-control input-md" required="" ng-model="composeEmail.sname">
+                    <span ng-show="error.SName">{{error.SName}}</span>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Company</label>
+                <div class="col-md-4">
+                    <input id="textinput" name="textinput" type="text" placeholder="Company" class="form-control input-md" ng-model="composeEmail.company">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">City</label>
+                <div class="col-md-4">
+                    <input id="textinput" name="textinput" type="text" placeholder="City" class="form-control input-md" required="" ng-model="composeEmail.city">
+                    <span ng-show="error.City">{{error.City}}</span>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Address</label>
+                <div class="col-md-4">
+                    <input id="textinput" name="textinput" type="text" placeholder="Address" class="form-control input-md" required=""  ng-model="composeEmail.address">
+                    <span ng-show="error.Address">{{error.Address}}</span>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Price</label>
+                <div class="col-md-4">
+                    <input id="textinput" name="textinput" type="text" placeholder="Price" class="form-control input-md" required=""  ng-model="composeEmail.price">
+                    <span ng-show="error.Price">{{error.Price}}</span>
+                </div>
+            </div>
+
+        
+
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="singlebutton"></label>
+                <div class="col-md-4">
+                    <button id="singlebutton" name="singlebutton" class="btn btn-primary" ng-click="sendEmail()">Order</button>
+                </div>
+            </div>
+            </fieldset>
+    </form>
+
+
+</section>

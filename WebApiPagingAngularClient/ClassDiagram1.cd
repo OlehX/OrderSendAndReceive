@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="WebApiPagingAngularClient.Controllers.DriveController">
+    <Position X="5.5" Y="4.25" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\DriveController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="drives" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WebApiPagingAngularClient.Controllers.HomeController">
+    <Position X="4" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApiPagingAngularClient.Models.Drive">
+    <Position X="6.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAACAAIAAgAAAAgAAAAAAgAA=</HashCode>
+      <FileName>Models\Drive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApiPagingAngularClient.Models.DriveModels">
+    <Position X="0.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\DriveModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApiPagingAngularClient.Models.Dyrectory">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAABAAAAASAAAAAAAAAAAIAgAAAAoAAAA=</HashCode>
+      <FileName>Models\Dyrectory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApiPagingAngularClient.Models.Elem">
+    <Position X="3.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\Elem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApiPagingAngularClient.Models.File">
+    <Position X="4.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\File.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

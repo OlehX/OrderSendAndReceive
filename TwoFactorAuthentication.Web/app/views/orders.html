@@ -1,0 +1,55 @@
+﻿<div class="jumbotron">
+    <div class="page-header text-center">
+        <h1>Received orders</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            &nbsp;
+        </div>
+
+
+        <div class="col-md-8">
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Company</th>
+                        <th>City</th>
+                        <th>Address</th>
+                        <th>Price</th>
+                      
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-ng-repeat="trans in transactionsHistory">
+                        <td>
+                            {{ trans.name }}
+                        </td>
+                        <td>
+                            {{ trans.sName }}
+                        </td>
+                        <td>
+                            {{ trans.company }}
+                        </td>
+                        <td>
+                            {{ trans.city }}
+                        </td>
+                        <td>
+                            {{ trans.address }}
+                        </td>
+                        <td>
+                            {{ trans.price }}
+                        </td>
+                      
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="col-md-2">
+            &nbsp;
+        </div>
+    </div>
